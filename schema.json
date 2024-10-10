@@ -82,6 +82,7 @@
       "image3": "https://fakeimg.pl/1280x768/282828/eae0d0/?text=output#.png",
       "image4": "https://files.catbox.moe/5c96cf.mp4",
       "video_aspect_ratio": "60%",
+      "line1": "Video size: 1280x768 pixels",
       "widget": "example"
     }
   },
