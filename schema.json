@@ -78,10 +78,10 @@
     "example": {
       "type": "string",
       "image1": "https://fakeimg.pl/1280x768/282828/eae0d0/?text=input#.png",
-      "image2": "https://fakeimg.pl/1280x768/282828/eae0d0/?text=input#.png",
+      "image2": "https://files.catbox.moe/7rn2pz.png",
       "image3": "https://fakeimg.pl/1280x768/282828/eae0d0/?text=output#.png",
-      "image4": "https://fakeimg.pl/1280x768/282828/eae0d0/?text=output#.png",
-      "video_aspect_ratio": "100%",
+      "image4": "https://files.catbox.moe/5c96cf.mp4",
+      "video_aspect_ratio": "60%",
       "widget": "example"
     }
   },
