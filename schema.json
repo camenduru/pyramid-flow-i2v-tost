@@ -9,7 +9,7 @@
       "code": "https://github.com/jy0205/Pyramid-Flow",
       "paper": "https://arxiv.org/abs/2410.05954",
       "page": "https://pyramid-flow.github.io/",
-      "api": "https://github.com/camenduru/tost-api-examples/blob/main/v1/pyramid-flow-t2v.ipynb",
+      "api": "https://github.com/camenduru/tost-api-examples/blob/main/v1/pyramid-flow-i2v.ipynb",
       "tags": [
         "Text to Video"
       ],
