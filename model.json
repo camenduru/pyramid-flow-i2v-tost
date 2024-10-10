@@ -1,0 +1,12 @@
+{
+    "input_image": "https://files.catbox.moe/7rn2pz.png",
+    "prompt": "vertigo in, camera focus on the girl, hair flowing with the wind",
+    "num_inference_steps": 10,
+    "width": 1280,
+    "height": 768,
+    "temp": 16,
+    "guidance_scale": 7.0,
+    "video_guidance_scale": 4.0,
+    "seed": 42,
+    "fps":24
+}

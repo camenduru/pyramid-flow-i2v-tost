@@ -1,0 +1,94 @@
+{
+  "$schema": "http://json-schema.org/draft-04/hyper-schema#",
+  "type": "object",
+  "properties": {
+    "readme": {
+      "type": "string",
+      "title": "Pyramidal Flow Matching for Efficient Video Generative Modeling",
+      "author": "Yang Jin, Zhicheng Sun, Ningyuan Li, Kun Xu, Kun Xu, Hao Jiang, Nan Zhuang, Quzhe Huang, Yang Song, Yadong Mu, Zhouchen Lin",
+      "code": "https://github.com/jy0205/Pyramid-Flow",
+      "paper": "https://arxiv.org/abs/2410.05954",
+      "page": "https://pyramid-flow.github.io/",
+      "api": "https://github.com/camenduru/tost-api-examples/blob/main/v1/pyramid-flow-t2v.ipynb",
+      "tags": [
+        "Text to Video"
+      ],
+      "widget": "readme"
+    },
+    "upload": {
+      "type": "string",
+      "widget": "upload",
+      "upload_url": "https://litterbox.catbox.moe/resources/internals/api.php",
+      "property": "input_image"
+    },
+    "input_image": {
+      "type": "string",
+      "description": "Input Image URL",
+      "widget": "textarea"
+    },
+    "prompt": {
+      "type": "string",
+      "description": "Prompt",
+      "widget": "textarea"
+    },
+    "num_inference_steps": {
+      "type": "integer",
+      "description": "Num Inference Steps",
+      "widget": "hidden"
+    },
+    "video_num_inference_steps": {
+      "type": "integer",
+      "description": "Video Num Inference Steps",
+      "widget": "hidden"
+    },
+    "width": {
+      "type": "integer",
+      "description": "Width",
+      "widget": "hidden"
+    },
+    "height": {
+      "type": "integer",
+      "description": "Height",
+      "widget": "hidden"
+    },
+    "temp": {
+      "type": "integer",
+      "description": "Temp",
+      "widget": "hidden"
+    },
+    "guidance_scale": {
+      "type": "number",
+      "description": "Guidance Scale",
+      "widget": "hidden"
+    },
+    "video_guidance_scale": {
+      "type": "number",
+      "description": "Video Guidance Scale",
+      "widget": "hidden"
+    },
+    "seed": {
+      "type": "integer",
+      "description": "if 0 random"
+    },
+    "fps": {
+      "type": "integer",
+      "description": "fps",
+      "widget": "hidden"
+    },
+    "example": {
+      "type": "string",
+      "image1": "https://fakeimg.pl/1280x768/282828/eae0d0/?text=input#.png",
+      "image2": "https://fakeimg.pl/1280x768/282828/eae0d0/?text=input#.png",
+      "image3": "https://fakeimg.pl/1280x768/282828/eae0d0/?text=output#.png",
+      "image4": "https://fakeimg.pl/1280x768/282828/eae0d0/?text=output#.png",
+      "video_aspect_ratio": "100%",
+      "widget": "example"
+    }
+  },
+  "buttons": [
+    {
+      "id": "enter",
+      "label": "🥪 Enter"
+    }
+  ]
+}
